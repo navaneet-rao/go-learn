@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/navaneet-rao/learn-go/pkg/basicSum"
 )
 
 func main() {

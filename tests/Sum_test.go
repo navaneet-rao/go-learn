@@ -8,7 +8,7 @@ import (
 
 func TestIsEqual(t *testing.T) {
 	assert := assert.New(t)
-	a := 100
+	a := 200
 	b := 100
-	assert.Equal(200, basicSum.Sum(a, b), "sum done correctly!!")
+	assert.Equal(200, basicSum.Sum(a, b), "assert by testify: sum done NOT correctly!!")
 }
